@@ -1,7 +1,0 @@
-Mecanum-wheeled robots are known for their exceptional maneuverability, but their unique design leaves them highly vulnerable to slip, a factor that significantly hinders path tracking accuracy and control system performance. 
-This project aims to address this critical challenge by developing a robust and accurate slip estimation approach. 
-The core objective is to create a machine learning and deep learning models that can predict and compensate for slip in real-time under a variety of operating conditions. 
-The proposed methodology involves using two cameras and image processing to gather precise real-time position data, which is then combined with encoder data to calculate actual slip. 
-This discrepancy provides the essential training data.
-We plan to explore various approaches for slip modeling, including Regression, SVR,GPR, MLP,LSTM,NARX LSTM and CNN. 
-The successful implementation of this project is expected to result in a highly accurate slip estimation module and a notable improvement in the robot's overall path tracking capabilities.
